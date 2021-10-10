@@ -43,7 +43,7 @@ class Student extends Thread {
 
 public class TestJavaSync2 { 
 	public static void main(String[] args){ 
-		Professor p = new Professor("");
+		Professor p = new Professor("방탄소년단");
 		Student s1 = new Student(p,"김별이",2020081001); 
 		Student s2 = new Student(p,"이지은",2019081077);
 		Student s3 = new Student(p,"유준서",2018081100);
